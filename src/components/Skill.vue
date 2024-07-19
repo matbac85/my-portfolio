@@ -16,9 +16,10 @@ li {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: var(--secondary);
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 0.751vw + 0.824rem, 1.5rem);
   border: 1px var(--secondary) solid;
   border-radius: 0.5rem;
-  padding: 1.5rem 2rem;
+  padding-inline: clamp(1.5rem, 0.751vw + 1.324rem, 2rem);
+  padding-block: clamp(1rem, 0.751vw + 0.824rem, 1.5rem);
 }
 </style>

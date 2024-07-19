@@ -20,9 +20,9 @@
   font-family: "Playfair Display", serif;
   font-style: italic;
   color: var(--secondary);
-  font-size: 4rem;
+  font-size: clamp(1.75rem, 3.38vw + 0.958rem, 4rem);
   text-decoration: none;
-  margin-bottom: 3rem;
+  margin-bottom: clamp(2rem, 1.502vw + 1.648rem, 3rem);
   position: relative;
   width: fit-content;
 }
@@ -39,7 +39,7 @@
 
 .socials {
   display: flex;
-  gap: 2rem;
+  gap: clamp(1.5rem, 0.751vw + 1.324rem, 2rem);
 }
 
 .socials a {
@@ -47,8 +47,10 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: var(--primary);
-  font-size: 2rem;
+  font-size: clamp(1rem, 1.502vw + 0.648rem, 2rem);
   border: 1px solid transparent;
+  padding-block: ;
+  padding-inline: ;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
   text-decoration: none;

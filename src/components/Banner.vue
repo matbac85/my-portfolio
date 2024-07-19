@@ -16,10 +16,11 @@ section {
 
 p {
   font-family: "Playfair Display", serif;
-  font-size: 8rem;
+  font-size: clamp(4rem, 6.009vw + 2.592rem, 8rem);
   color: var(--secondary);
   line-height: 120%;
   max-width: 62rem;
+  text-align: center;
 }
 
 strong {

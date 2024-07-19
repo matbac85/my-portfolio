@@ -16,8 +16,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   background: var(--primary);
-  height: 10%;
-  padding-inline: 3rem;
+  height: var(--nav-height);
+  padding-inline: clamp(1rem, 3.005vw + 0.296rem, 3rem);
   position: fixed;
   top: 0;
   left: 0;

@@ -53,7 +53,7 @@ li::after {
 h3 {
   color: var(--accent);
   font-weight: 300;
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 0.751vw + 1.324rem, 2rem);
   text-transform: uppercase;
   letter-spacing: 5px;
   margin-bottom: 4px;
@@ -62,7 +62,12 @@ h3 {
 
 .context {
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: clamp (1rem, 0.751vw + 0.824rem, 1.5rem);
   margin-bottom: 0.5rem;
+  word-break: auto-phrase;
+}
+
+.description {
+  font-size: clamp(0.875rem, 0.188vw + 0.831rem, 1rem);
 }
 </style>

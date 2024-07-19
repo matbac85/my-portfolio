@@ -31,6 +31,6 @@ ul {
   all: unset;
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: clamp(1.25rem, 1.127vw + 0.986rem, 2rem);
 }
 </style>

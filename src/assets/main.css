@@ -89,6 +89,7 @@ h6 {
   --primary: #1e2125;
   --secondary: #e9dfce;
   --accent: #02a1b6;
+  --nav-height: clamp(4rem, 3.005vw + 3.296rem, 6rem);
 }
 
 body {
@@ -96,19 +97,19 @@ body {
 }
 
 section {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - var(--nav-height));
   background-color: var(--primary);
-  padding-inline: 6rem;
+  padding-inline: clamp(1rem, 7.512vw - 0.761rem, 6rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: var(--nav-height);
 }
 
 .title {
   font-family: "Playfair Display", serif;
   color: var(--secondary);
-  font-size: 3rem;
+  font-size: clamp(2rem, 1.502vw + 1.648rem, 3rem);
   line-height: 140%;
   margin-bottom: 5rem;
   letter-spacing: 3px;
@@ -118,6 +119,6 @@ section {
   font-style: italic;
   font-weight: 400;
   color: var(--accent);
-  font-size: 6rem;
+  font-size: clamp(4rem, 3.005vw + 3.296rem, 6rem);
   letter-spacing: 0;
 }
