@@ -1,0 +1,123 @@
+/* CSS RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* CSS */
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/Open_Sans/static/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/Open_Sans/static/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/Open_Sans/static/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+:root {
+  --primary: #1e2125;
+  --secondary: #e9dfce;
+  --accent: #02a1b6;
+}
+
+body {
+  background-color: var(--primary);
+}
+
+section {
+  min-height: calc(100vh - 100px);
+  background-color: var(--primary);
+  padding-inline: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+  color: var(--secondary);
+  font-size: 3rem;
+  line-height: 140%;
+  margin-bottom: 5rem;
+  letter-spacing: 3px;
+}
+
+.strong-title-item {
+  font-style: italic;
+  font-weight: 400;
+  color: var(--accent);
+  font-size: 6rem;
+  letter-spacing: 0;
+}
