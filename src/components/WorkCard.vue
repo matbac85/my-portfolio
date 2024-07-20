@@ -6,6 +6,10 @@
       <ul>
         <li v-for="(tag, index) in tags" :key="index">{{ tag }}</li>
       </ul>
+      <div class="links">
+        <a v-if="code" :href="code">view code</a
+        ><a v-if="site" :href="site">preview page</a>
+      </div>
     </div>
   </article>
 </template>
@@ -17,6 +21,8 @@ const props = defineProps({
   image: String,
   title: String,
   tags: Array,
+  code: String,
+  site: String,
 });
 </script>
 
@@ -29,6 +35,32 @@ article {
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+a {
+  background-color: var(--accent);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 0.875rem;
+  border: 1px solid transparent;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-style: normal;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  background-color: var(--primary);
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
 }
 
 article.show {
@@ -49,7 +81,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 5px;
   margin-bottom: 4px;
-  line-height: 100%;
+  line-height: 110%;
   margin-bottom: 1rem;
 }
 
@@ -58,6 +90,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 li {

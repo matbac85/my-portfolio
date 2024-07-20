@@ -23,7 +23,7 @@
   font-family: "Playfair Display", serif;
   font-style: italic;
   color: var(--accent);
-  font-size: clamp(1.75rem, 3.38vw + 0.958rem, 4rem);
+  font-size: clamp(1.5rem, 2.254vw + 0.972rem, 3rem);
   text-decoration: none;
   margin-bottom: clamp(2rem, 1.502vw + 1.648rem, 3rem);
   position: relative;
@@ -59,14 +59,13 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: var(--primary);
-  font-size: clamp(1rem, 1.502vw + 0.648rem, 2rem);
+  font-size: 1rem;
   border: 1px solid transparent;
-  padding-block: ;
-  padding-inline: ;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
   text-decoration: none;
   font-style: normal;
+  cursor: pointer;
 }
 
 .socials a:hover {
