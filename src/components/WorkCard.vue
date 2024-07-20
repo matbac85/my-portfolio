@@ -109,7 +109,7 @@ img {
   border-radius: 0.5rem;
 }
 
-@media (min-width: 95rem) {
+@media (min-width: 100rem) {
   h3 {
     font-size: 2rem;
   }

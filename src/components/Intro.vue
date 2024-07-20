@@ -32,7 +32,7 @@
   gap: 2rem;
 }
 
-@media (min-width: 95rem) {
+@media (min-width: 100rem) {
   .description {
     font-size: 2rem;
   }

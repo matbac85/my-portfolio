@@ -76,7 +76,7 @@
   background-color: var(--primary);
 }
 
-@media (min-width: 95rem) {
+@media (min-width: 100rem) {
   .socials a {
     font-size: 1.5rem;
     padding: 1.25rem 2rem;
