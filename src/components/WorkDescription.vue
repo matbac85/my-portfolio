@@ -1,6 +1,6 @@
 <template>
   <li>
-    <img loading="lazy" src="/images/bullet.svg" alt="" />
+    <img loading="lazy" src="./images/bullet.svg" alt="" />
     <div class="content">
       <h3>{{ position }}</h3>
       <p class="context">{{ context }}</p>
