@@ -92,6 +92,10 @@ h6 {
   --nav-height: clamp(4rem, 3.005vw + 3.296rem, 6rem);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--primary);
 }
@@ -132,5 +136,9 @@ section {
 
   .title {
     font-size: 4rem;
+  }
+
+  .strong-title-item {
+    font-size: 7rem;
   }
 }
