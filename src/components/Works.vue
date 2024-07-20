@@ -3,15 +3,17 @@
     <h2 class="title">
       My<br /><strong class="strong-title-item">Works</strong>
     </h2>
-    <ul>
-      <WorkCard
-        v-for="(work, index) in works"
-        :key="index"
-        :image="work.img"
-        :title="work.title"
-        :tags="work.tags"
-      />
-    </ul>
+    <div class="centered">
+      <ul>
+        <WorkCard
+          v-for="(work, index) in works"
+          :key="index"
+          :image="work.img"
+          :title="work.title"
+          :tags="work.tags"
+        />
+      </ul>
+    </div>
   </section>
 </template>
 
@@ -44,6 +46,26 @@ const works = [
     title: "password generator",
     tags: ["Vue.js", "CSS", "Responsive"],
   },
+  {
+    img: "/images/landing-page.png",
+    title: "landing page",
+    tags: ["HTML", "CSS", "Responsive"],
+  },
+  {
+    img: "/images/calculator.png",
+    title: "age calculator",
+    tags: ["Vue.js", "Tailwind", "Responsive"],
+  },
+  {
+    img: "/images/bmi-calculator.png",
+    title: "bmi calculator",
+    tags: ["Vue.js", "CSS", "Responsive"],
+  },
+  {
+    img: "/images/nestor.png",
+    title: "nestor's soaps",
+    tags: ["Illustrator", "Photoshop", "InDesign"],
+  },
 ];
 </script>
 
@@ -51,7 +73,8 @@ const works = [
 ul {
   padding: 0;
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 </style>
