@@ -122,4 +122,19 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+@media (min-width: 95rem) {
+  ul {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 </style>

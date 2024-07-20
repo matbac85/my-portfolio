@@ -217,4 +217,15 @@ nav {
     align-items: center;
   }
 }
+
+@media (min-width: 95rem) {
+  nav {
+    padding-inline: 6rem;
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    gap: 2.5rem;
+  }
+}
 </style>

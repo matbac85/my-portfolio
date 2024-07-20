@@ -54,7 +54,7 @@ ul {
   font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
-  max-width: 44rem;
+  max-width: clamp(44rem, 53.333vw - 4rem, 60rem);
 }
 
 .center {

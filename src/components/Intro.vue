@@ -26,9 +26,15 @@
   color: var(--secondary);
   font-size: 1.25rem;
   line-height: 130%;
-  max-width: 30rem;
+  max-width: clamp(30rem, 25vw + 7.5rem, 37.5rem);
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+@media (min-width: 95rem) {
+  .description {
+    font-size: 2rem;
+  }
 }
 </style>

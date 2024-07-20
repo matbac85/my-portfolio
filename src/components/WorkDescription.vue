@@ -69,4 +69,18 @@ h3 {
 .description {
   font-size: clamp(0.875rem, 0.188vw + 0.831rem, 1rem);
 }
+
+@media (min-width: 95rem) {
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  .context {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1.5rem;
+  }
+}
 </style>

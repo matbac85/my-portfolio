@@ -124,3 +124,13 @@ section {
   font-size: clamp(4rem, 3.005vw + 3.296rem, 6rem);
   letter-spacing: 0;
 }
+
+@media (min-width: 95rem) {
+  section {
+    padding-inline: 10rem;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+}

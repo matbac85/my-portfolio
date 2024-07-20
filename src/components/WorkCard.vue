@@ -29,7 +29,7 @@ const props = defineProps({
 <style scoped>
 article {
   border: 1px var(--secondary) solid;
-  width: 22rem;
+  width: clamp(22rem, 30vw - 5rem, 31rem);
   border-radius: 0.5rem;
   padding: 1rem;
   opacity: 0;
@@ -107,5 +107,16 @@ li {
 
 img {
   border-radius: 0.5rem;
+}
+
+@media (min-width: 95rem) {
+  h3 {
+    font-size: 2rem;
+  }
+
+  li,
+  a {
+    font-size: 1.5rem;
+  }
 }
 </style>

@@ -73,4 +73,16 @@
   border: 1px solid var(--accent);
   background-color: var(--primary);
 }
+
+@media (min-width: 95rem) {
+  .socials a {
+    font-size: 1.5rem;
+    padding: 1.25rem 2rem;
+  }
+
+  .mail {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+  }
+}
 </style>
