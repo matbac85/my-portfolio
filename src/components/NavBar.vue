@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <img loading="lazy" src="./images/logo.svg" alt="Logo" class="logo" />
+    <img loading="lazy" src="/images/logo.svg" alt="Logo" class="logo" />
     <button
       class="menu-wrapper"
       @click="openMenu = !openMenu"
