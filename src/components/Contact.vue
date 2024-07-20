@@ -7,8 +7,10 @@
       >mathildebaclin@gmail.com</a
     >
     <div class="socials">
-      <a href="https://github.com/matbac85">Github</a
-      ><a href="https://www.linkedin.com/in/matbac/">Linkedin</a>
+      <a href="https://github.com/matbac85" target="_blank">Github</a
+      ><a href="https://www.linkedin.com/in/matbac/" target="_blank"
+        >Linkedin</a
+      >
     </div>
   </section>
 </template>

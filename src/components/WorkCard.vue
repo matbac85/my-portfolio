@@ -7,8 +7,8 @@
         <li v-for="(tag, index) in tags" :key="index">{{ tag }}</li>
       </ul>
       <div class="links">
-        <a v-if="code" :href="code">view code</a
-        ><a v-if="site" :href="site">preview page</a>
+        <a v-if="code" :href="code" target="_blank">view code</a
+        ><a v-if="site" :href="site" target="_blank">preview page</a>
       </div>
     </div>
   </article>
