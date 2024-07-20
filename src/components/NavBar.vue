@@ -218,7 +218,7 @@ nav {
   }
 }
 
-@media (min-width: 100rem) {
+@media (min-width: 105rem) {
   nav {
     padding-inline: 6rem;
     font-size: 1.5rem;

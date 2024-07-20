@@ -123,7 +123,7 @@ ul {
   justify-content: center;
 }
 
-@media (min-width: 100rem) {
+@media (min-width: 105rem) {
   ul {
     width: fit-content;
     display: grid;
