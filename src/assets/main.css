@@ -129,7 +129,7 @@ section {
   letter-spacing: 0;
 }
 
-@media (min-width: 105rem) {
+@media (min-width: 111rem) {
   section {
     padding-inline: 10rem;
   }

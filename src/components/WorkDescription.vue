@@ -70,7 +70,7 @@ h3 {
   font-size: clamp(0.875rem, 0.188vw + 0.831rem, 1rem);
 }
 
-@media (min-width: 105rem) {
+@media (min-width: 111rem) {
   h3 {
     font-size: 2.5rem;
   }

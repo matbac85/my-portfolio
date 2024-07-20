@@ -23,7 +23,7 @@ li {
   padding-block: clamp(1rem, 0.751vw + 0.824rem, 1.5rem);
 }
 
-@media (min-width: 105rem) {
+@media (min-width: 111rem) {
   li {
     font-size: 2rem;
     padding-inline: 2.5rem;
