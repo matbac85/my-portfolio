@@ -29,7 +29,7 @@ const props = defineProps({
 <style scoped>
 article {
   border: 1px var(--secondary) solid;
-  width: clamp(22rem, 30vw - 5rem, 31rem);
+  width: clamp(22rem, 25.087vw + 5.913rem, 31rem);
   border-radius: 0.5rem;
   padding: 1rem;
   opacity: 0;
