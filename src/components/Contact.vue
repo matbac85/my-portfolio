@@ -19,7 +19,7 @@
 .mail {
   font-family: "Playfair Display", serif;
   font-style: italic;
-  color: var(--secondary);
+  color: var(--accent);
   font-size: clamp(1.75rem, 3.38vw + 0.958rem, 4rem);
   text-decoration: none;
   margin-bottom: clamp(2rem, 1.502vw + 1.648rem, 3rem);
@@ -32,9 +32,18 @@
   position: absolute;
   top: 98%;
   left: 0;
-  height: 1px;
-  background-color: var(--secondary);
+  height: 5px;
+  background-color: var(--accent);
   width: 100%;
+  cursor: pointer;
+}
+
+.mail:hover {
+  color: var(--secondary);
+}
+
+.mail:hover::after {
+  background-color: var(--secondary);
 }
 
 .socials {

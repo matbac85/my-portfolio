@@ -1,6 +1,6 @@
 <template>
   <li>
-    <img src="../assets/Images/bullet.svg" alt="" />
+    <img src="/images/bullet.svg" alt="" />
     <div class="content">
       <h3>{{ position }}</h3>
       <p class="context">{{ context }}</p>
@@ -64,7 +64,6 @@ h3 {
   font-weight: 700;
   font-size: clamp (1rem, 0.751vw + 0.824rem, 1.5rem);
   margin-bottom: 0.5rem;
-  word-break: auto-phrase;
 }
 
 .description {

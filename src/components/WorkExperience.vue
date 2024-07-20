@@ -24,13 +24,13 @@ const workDescriptions = [
     position: "Art teacher",
     context: "HELHa, Leuze-en-Hainaut, Sep 2023 - Jun 2024",
     description:
-      "Taught visual arts to future primary school teachers and future secondary school teachers of French, aiming to develop their artistic and creative skills.",
+      "Taught visual arts to aspiring teachers, aiming to develop their artistic and creative skills.",
   },
   {
     position: "Web Designer (intern)",
     context: "Aerospacelab, Mont-Saint-Guibert, Jun 2023 - Aug 2023",
     description:
-      "Redesigned the user interface of an existing application using Figma, including creating wireframes, prototypes, and a design system. Integrated the design into Nuxt.js with Tailwind CSS.",
+      "Redesigned the user interface of an existing application using Figma. Created wireframes, prototypes, and a design system. Integrated the design into Nuxt.js with Tailwind CSS.",
   },
   {
     position: "Production Manager",
