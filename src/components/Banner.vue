@@ -14,6 +14,7 @@ section {
   justify-content: center;
   align-items: center;
   padding-top: 0;
+  overflow-x: hidden;
 }
 
 p {
