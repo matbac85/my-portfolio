@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="contact">
     <h2 class="title">
       Contact<br /><strong class="strong-title-item">Me</strong>
     </h2>
@@ -16,6 +16,9 @@
 <script setup></script>
 
 <style scoped>
+.title {
+  margin-top: 0;
+}
 .mail {
   font-family: "Playfair Display", serif;
   font-style: italic;

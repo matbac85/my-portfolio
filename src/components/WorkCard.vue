@@ -1,6 +1,6 @@
 <template>
-  <article>
-    <img :src="image" alt="" />
+  <article class="work-card">
+    <img loading="lazy" :src="image" alt="" />
     <div class="text-content">
       <h3>{{ title }}</h3>
       <ul>
@@ -26,6 +26,14 @@ article {
   width: 22rem;
   border-radius: 0.5rem;
   padding: 1rem;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+article.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .text-content {

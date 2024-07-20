@@ -97,10 +97,11 @@ body {
 }
 
 section {
-  min-height: calc(100vh - var(--nav-height));
+  min-height: calc(100dvh - var(--nav-height));
   background-color: var(--primary);
   padding-inline: clamp(1rem, 7.512vw - 0.761rem, 6rem);
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   margin-top: var(--nav-height);
@@ -113,6 +114,7 @@ section {
   line-height: 140%;
   margin-bottom: 5rem;
   letter-spacing: 3px;
+  margin-top: var(--nav-height);
 }
 
 .strong-title-item {

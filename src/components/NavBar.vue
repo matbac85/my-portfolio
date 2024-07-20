@@ -1,15 +1,47 @@
 <template>
   <nav>
-    <img src="/images/logo.svg" alt="" class="logo" /><img
-      src="/images/burger-menu.svg"
-      alt=""
-    />
+    <img loading="lazy" src="/images/logo.svg" alt="" class="logo" />
+    <img class="burger-menu" src="/images/burger-menu.svg" alt="" />
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </nav>
 </template>
 
 <script setup></script>
 
 <style scoped>
+.burger-menu {
+  display: none;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+li {
+  all: unset;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+a:hover {
+  color: var(--accent);
+}
+
 nav {
   min-width: 100%;
   display: flex;

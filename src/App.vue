@@ -1,13 +1,15 @@
 <template>
-  <main>
+  <div>
     <NavBar />
-    <Banner />
-    <Intro />
-    <Skills />
-    <Works />
-    <WorkExperience />
-    <Contact />
-  </main>
+    <main>
+      <Banner />
+      <Intro />
+      <Skills />
+      <Works />
+      <WorkExperience />
+      <Contact />
+    </main>
+  </div>
 </template>
 
 <script setup>

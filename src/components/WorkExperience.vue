@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="resume">
     <h2 class="title">
       My<br /><strong class="strong-title-item">Work Experience</strong>
     </h2>

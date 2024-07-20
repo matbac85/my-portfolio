@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="about">
     <h2 class="title">
       My name is <br /><strong class="strong-title-item">Mathilde</strong>
     </h2>

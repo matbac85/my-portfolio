@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="works">
     <h2 class="title">
       My<br /><strong class="strong-title-item">Works</strong>
     </h2>
@@ -11,6 +11,7 @@
           :image="work.img"
           :title="work.title"
           :tags="work.tags"
+          ref="workCards"
         />
       </ul>
     </div>
@@ -18,6 +19,7 @@
 </template>
 
 <script setup>
+import { ref, onMounted, onBeforeUnmount } from "vue";
 import WorkCard from "./WorkCard.vue";
 
 const works = [
@@ -67,6 +69,30 @@ const works = [
     tags: ["Illustrator", "Photoshop", "InDesign"],
   },
 ];
+
+const workCards = ref([]);
+
+const handleScroll = () => {
+  const revealPoint = window.innerHeight * 0.85;
+
+  workCards.value.forEach((card, index) => {
+    const cardTop = card.getBoundingClientRect().top;
+
+    if (cardTop < revealPoint) {
+      card.classList.add("show");
+    }
+  });
+};
+
+onMounted(() => {
+  workCards.value = document.querySelectorAll(".work-card");
+  window.addEventListener("scroll", handleScroll);
+  handleScroll();
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
 </script>
 
 <style scoped>

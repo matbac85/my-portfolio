@@ -1,6 +1,8 @@
 <template>
-  <section>
-    <p>Creating <strong>Elegant</strong> Web Experiences</p>
+  <section id="home">
+    <p class="animated-text">
+      Creating <strong>Elegant</strong> Web Experiences
+    </p>
   </section>
 </template>
 
@@ -21,11 +23,25 @@ p {
   line-height: 120%;
   max-width: 62rem;
   text-align: center;
+  opacity: 0;
+  transform: translateX(100%);
+  animation: slideInFromRight 2s forwards;
 }
 
 strong {
   color: var(--accent);
   font-style: italic;
   font-weight: 400;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 </style>
