@@ -1,6 +1,6 @@
 # Mathilde Baclin - Portfolio
 
-![Portfolio Screenshot](/images/screen-shot-portfolio.png)
+![Portfolio Screenshot](public/images/screen-shot-portfolio.png)
 
 ## Application Description
 
