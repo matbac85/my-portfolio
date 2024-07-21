@@ -30,7 +30,7 @@ const workDescriptions = [
     position: "Web Designer (intern)",
     context: "Aerospacelab, Mont-Saint-Guibert, Jun 2023 - Aug 2023",
     description:
-      "Redesigned the user interface of an existing application using Figma. Created wireframes, prototypes, and a design system. Integrated the design into Nuxt.js with Tailwind CSS.",
+      "Redesigned the user interface of an existing application using Figma. Created wireframes, prototypes, and a design system. Integrated the design into Nuxt.js using Tailwind CSS.",
   },
   {
     position: "Production Manager",
@@ -42,7 +42,7 @@ const workDescriptions = [
     position: "Prepress Designer",
     context: "Dargaud-Lombard, Brussels, Jul 2010 - Jul 2019",
     description:
-      "Coordinated comic production processes. Used Adobe Suite for layout and image editing. Prepared files for printing, adhering to technical standards and strict deadlines. Communicated with internal and external stakeholders.",
+      "Coordinated comic book production processes. Used Adobe Suite for layout and image editing. Prepared files for printing, adhering to technical standards and strict deadlines. Communicated with internal and external stakeholders.",
   },
 ];
 </script>

@@ -1,29 +1,47 @@
-# my-portfolio
+# Mathilde Baclin - Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+![Portfolio Screenshot](/images/screen-shot-portfolio.png)
 
-## Recommended IDE Setup
+## Application Description
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+I designed and developed this portfolio as a website to showcase my capabilities in design and front-end development to potential employers. This portfolio provides a window into various projects I have worked on over the past few months, aiming to secure a junior-level position. It includes information about myself, my professional background, my skills, and some of the projects I am proud of.
 
-## Customize configuration
+## Try It Out
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Explore the portfolio online [here](https://mathildebaclin.com/).
 
-## Project Setup
+## Features and Structure
 
-```sh
-npm install
-```
+### General Structure
 
-### Compile and Hot-Reload for Development
+The portfolio is divided into six main sections:
 
-```sh
-npm run dev
-```
+1. Home
+2. About
+3. Skills
+4. Works
+5. Resume
+6. Contact
 
-### Compile and Minify for Production
+### Projects Presented
 
-```sh
-npm run build
-```
+- **Nest**: A personal web app project.
+- **Nestor's Soaps**: A personal visual identity project.
+- **Front-end Mentor Challenges**: Various challenges that helped me gain a solid level of front-end development skills.
+
+### User Interactions
+
+The portfolio is a static page providing information about me and showcasing some of my projects, which can be visited through buttons linking to the code and live page of each project.
+
+## Tools Used
+
+- **Vue.js**: Used to build the user interface and manage data reactivity.
+- **CSS**: Used for structuring and styling the user interface in a responsive and aesthetic manner.
+
+## Credits
+
+Special thanks to Christophe Belpaire for helping me deploy my various projects online, especially this portfolio.
+
+## Summary
+
+This portfolio aims to demonstrate my skills in design and front-end development through various projects. It serves as a showcase of my work and background, hoping to attract the attention of future employers.
